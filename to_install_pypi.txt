@@ -1,0 +1,13 @@
+   #on Windows
+
+PS> python -m venv venv
+PS> .\venv\Scripts\activate
+(venv) PS> python -m pip install pytest
+
+   #on Linux/ Unix
+
+$ python -m venv venv
+$ source venv/bin/activate
+   #to deactivate:
+   $ deactivate
+(venv) $ python -m pip install pytest

@@ -1,0 +1,27 @@
+Report from pytest include:
+  
+First section:
+
+  #system state, which version 
+   of Python, pytest, and other 
+   installed plugins
+  
+  #the rootdir or dir to search 
+   under for config and tests
+  
+  #number of tests runner discovered
+
+Next section:
+
+  status of each test:
+    
+    #A dot(.) - test passed
+    #An F - test failed
+    #An E - test raised unexpected error
+
+  if test fail, I get detailed breakdown of 
+  the failure - usefull when debugging.
+
+Last section:
+  
+  overal status report of the test suite.
